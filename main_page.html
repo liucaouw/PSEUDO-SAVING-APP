@@ -1,0 +1,44 @@
+<html>
+<header>
+   <title>Main_page</title>
+   <link rel="stylesheet" type="text/css" href="ipod.css"/>
+   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+      rel="stylesheet">
+</header>
+<body onload="checkCookie()">
+   <div id="screen">
+     <div class="head-bar">
+	  <table class="SCyear_month">
+		<tr>
+			<th  class="head_font"><div style="padding-right:20px;">Saving</div></th>
+			<th  class="head_font"><div style="padding-left:20px;">Cost</div></th>
+		</tr>
+		<tr>
+			<td class="head_font" id="saving_money"><div style="padding-right:20px;">$0.00</div></td>
+			<td class="head_font" ><div id="cost_money" style="padding-left:20px;">$0.00</div></td>
+		</tr>
+	  </table>
+   </div>
+   <div id="body_part">
+   </div>
+   <div class="rest_part">
+   <hr class="line"></hr>
+   <div class="components">
+   <div class="component" id="Detail"><i class="fa fa-exclamation-circle" style="font-size:25px;color:lightgreen;background-color:#4e5ec9;"></i><p class="img_word" style="color:lightgreen;">Detail</p></div>
+   <a href="chart.html"><div class="component" id="Chart"><i class="fa fa-pie-chart" style="font-size:25px;color:white"></i><p class="img_word">Trend</p></div></a>
+   <a href="saving.html"><div class="component" id="Save_cost"><span id="add_button">+</span></div></a>
+
+   <a href="compare.html">
+   <div class="component" id="Compare"><i class="fa fa-balance-scale" style="font-size:25px;color:white"></i><p class="img_word">Compare</p></div></a>
+
+   <a href="setting.html"><div class="component" id="Setting"><i class="fa fa-flag" style="font-size:25px;color:white"></i><p class="img_word">Goal</p></div></a>
+   </div>
+   </div>
+   </div>
+  
+<script src="calculator.js"></script>
+</body>
+</html>
+<!-- 
+* bg iphone img is 363x762px
+* iphone 'screen' is apprx 300x530 -->
