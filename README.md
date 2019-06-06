@@ -1,5 +1,5 @@
 # PSEUDO-SAVING-APP
-A HCI project at Northwestern University
+This is a HCI project at Northwestern University. Here is the [demo](https://liucaouw.github.io/PSEUDO-SAVING-APP/).
 ## Tasks
 ### Task 1: Record the cost
   It is a very common function regarding to this kind of apps. Users can record daily cost and
